@@ -54,3 +54,23 @@ select {
      no-repeat calc(100% - 1rem) center;
     
 }
+
+.address .flex {
+     gap: 1.5rem;
+}
+
+.input-wrapper:has([disable]) {
+    opacity: .5;
+    background-color: var(--sufarce-disabled);
+    background-color: #ab400b;
+}
+
+input {
+    &[disabled] {
+        background-color: var(--surface-disabled);
+
+        border: 1px solid var(--stroke-default);
+
+        color: var(--text-primary);
+    }
+}
