@@ -24,18 +24,18 @@
         flex: 0 0 1.5rem;
         height: 1.5rem;
 
-        background-image: url(/assets/icons/square.svg);
+        background-image: url(assets/icons/square.svg);
     }
 
     &:hover, :focus-within {
         .checkbox-image {
-            background-image: url(/assets/icons/square-1.svg);
+            background-image: url(assets/icons/square-1.svg);
         }
     }
 
     &:has(:checked) {
         .checkbox-image {
-            background-image: url(/assets/icons/checkmark-square-01.svg);
+            background-image: url(assets/icons/checkmark-square-01.svg);
         }
     }
 }
